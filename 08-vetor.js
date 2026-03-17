@@ -29,3 +29,45 @@ console.log("1a posição", dinos[0]);
 console.log("2a posição", dinos[3]);
 console.log("3a posição", dinos[4]);
 console.log("20a posição (não existe)", dinos[20]);
+
+//pop -> remaver um elementos do final  do vetor (ultimo elemento)
+dinos.pop();
+console.table(dinos);
+console.log("o vetor agora tem ", dinos.length, "elementos");
+
+dinos.shift();
+console.table(dinos);
+console.log("o vetor agora tem ", dinos.length, "elementos");
+
+// splice -> remove um elementos a partir de um indice e tambem precisa ser informada a quantidade de resgistro a ser excluido a partir de indice.
+dinos.splice(1, 1); //remove somante o sugundo item da lista
+console.table(dinos);
+console.log("o vetor agora tem", dinos.length, "elementos");
+
+//adicione mais elementos ao vetor
+dinos.push("Pterodatilo");
+dinos.push("estegossauro");
+dinos.push("argentinossauro");
+
+// procurar um elemento a partir do nome(descrição)
+//imdex off (procurado) -> retornado o indice do elemento do vetor
+let procurado = "estegossauro";
+let indice = dinos.indexOf(procurado);
+console.log("o ", procurado, "está no indice", indice);
+// indexof (procurado) -> retornado -1 caso não encontre o elementos
+procurado = "crestianossauro";
+indice = dinos.indexOf(procurado);
+console.log("o ", procurado, "está no indice", indice);
+
+// excluir um elemento com base em seu nome
+// 1 localizar oindice do elemento a partir do nome
+// 2a excluir o registro com base no indice retornado
+
+procurado = "estegossauro";
+indice = dinos.indexOf(procurado);
+console.log("o ", procurado, "está no indice", indice);
+dinos.splice(indice, 1);
+console.table(dinos);
+
+// alterar o valoer de um elemento a partir do indice
+dinos[1] = "anquilossauro";
