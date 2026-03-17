@@ -14,7 +14,7 @@ console.log(dinos[2]);
 
 // push -> adicionar um elemento um novo elemento no final da fila
 dinos.push("anquilossauro");
-console.log("o vetor qgora tem ", dinos.length, "elementos");
+console.log("o vetor ogora tem ", dinos.length, "elementos");
 console.table(dinos);
 console.log(dinos[4]);
 
