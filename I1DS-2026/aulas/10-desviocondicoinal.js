@@ -59,3 +59,32 @@ if(semaforo == "vermelho"){
 }else{
     console.log("opcao incorreta")
 }
+
+// criando variaveis locais ( só existem dentro do bloco onde foram criados)
+
+let mes = "agosto"
+let dia = "15"
+if(dia = 15 && mes == "agosto"){
+    let mensagem = "hoje é dia 15 de agosto"
+    console.log(mensagem)
+}
+
+console.log("tentando acesssar a variavel 'mensagem' fora do escopo do IF  via dar erro!!!")
+//console.log(mensagem)
+
+/********************************************************************************************/
+// if ternario (if inline)
+
+let preco = 500
+let resultado = (preco <= 100) ? "ta barato" : "vish, ta caro";
+
+console.log("preco",preco, resultado)
+
+// o codigo acima faz a mesma coisa que o codigo abaixo
+
+if(preco <= 100 ) {
+    resultado = "ta barato"
+}else{
+    resultado = "vish, ta caro"
+}
+console.log("preco",preco, resultado)
