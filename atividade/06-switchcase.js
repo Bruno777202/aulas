@@ -18,3 +18,31 @@ Mês                     Trimestre
 10, 11, 12              Quarto trimestre
 */
 
+let mes = 5;
+
+switch (mes) {
+    case 1:
+    case 2: 
+    case 3:
+       console.log("você esta no primeiro trimestri")
+        break;    
+    case 4 : 
+    case 5 :
+    case 6 :
+    console.log("você esta no segundo trimestri")
+     case 10:
+     case 11:
+     case 12:
+     console.log("você esta no primeiro trimestri")
+        break; 
+       case 13:
+       case 14:
+       case 15:
+       case 16:
+       case 17:
+       console.log("você esta não existe")
+        break; 
+        
+        default:
+        break;
+}
