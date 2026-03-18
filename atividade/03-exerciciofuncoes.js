@@ -9,15 +9,14 @@ Lista de Exercícios
  veículo faz uma média de 12 Km/L.
 */
 
-function subtrair (valornascimento, valoridade) {let valornascimento = - (valoridade) 
-    return valornascimento 
+let valorano = 2009
+let valornascimento = 26 
+
+function parametro (volornascimento, valoridade) {return valorano = valoridade 
+    let valorparametro = valorano + (valornascimento - 26 )
 }
+let totalano
 
-let totalnascimento = 2010
-let totalidade = subtrair (totalnascimentoa,2026)
-let idade = totalnascimento - totalidade
-
-console.log(" '2010 - 2026' =", subtrair (2010,2026))
-console.log("subtrair v1 - v2", subtrair, v1, v2)
-
-
+console.log("--------------------------------")
+console.log ("valorano:", valornascimento)
+console.log("--------------------------------")
