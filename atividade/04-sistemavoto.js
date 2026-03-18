@@ -49,20 +49,47 @@ retorne uma mensagem informando sua situação.
     A função deve retornar uma frase indicando a situação do aluno.
 */
 
-function aluno (notas) {
-    let frase;
-  if (notas < 6.9) {
-    frase = "esta reprovado"
-}else if(notas >= 5.0 && notas <= 6.9) {
-    frase = "ésta recuração"
-}else if(notas >= 6.9 && notas == 7.0 ) {
-    frase = "você passou de ano :)"}
-   return frase;
+//function aluno (notas){
+ // if (notas < 5) {
+ //   return "reprovado"
+ // }else if (notas < 7) {
+ //   return "recuração"
+ // }else{
+ // return "aprovado"
+ // }
+// }
 
- let notas = 8.5
- console.log("notas", notas, aluno(notas))
- notas = 6.9
-  console.log("notas", notas, aluno(notas))
- notas = 3.0
-  console.log("notas", notas, aluno(notas))
- notas = 10.0;
+//console.log("===================================")
+//console.log(aluno(5))
+//console.log(aluno(7))
+//conselolog("==================================")
+
+// parte 02 - solução - parte 
+function situacaofinal(n1, n2 , n3 , n4,) {
+  let media = (n1 + n2 + n3 + n4 )/ 4 
+
+  if (media < 5){
+    return "reprovado";
+  }else{
+    return "aprovado"
+  }
+}
+
+console.log(situacaofinal(7, 8, 6, 5))
+console.log(situacaofinal(7, 7, 7, 7))
+
+console.log("===============================================")
+console.log("                solução03                      ")
+console.log("===============================================")
+
+function final(n1, n2, n3, n4){
+  let media = (n1, n2, n3, n4) / 4;
+  let situacao;
+
+  if(media < 5) situacao = "reprovado"
+  else if (media < 7) situacao = "recuperacao";
+  else situacao = "aprovado"
+  return "média:" + media + "- situação:" + situacao
+}
+
+console.log(final(7,8,6,5));
