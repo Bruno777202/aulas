@@ -31,4 +31,10 @@ let matriz = [
 ] 
 console.table(matriz)
 
-console.log(matriz)
+for (let linha = 0; linha< matriz.length; linha++) {
+   for (let coluna = 0; coluna < matriz[0].length; coluna++) {
+    console.log("matriz", linha , coluna, matriz[linha][coluna]);
+
+   }    
+}
+
