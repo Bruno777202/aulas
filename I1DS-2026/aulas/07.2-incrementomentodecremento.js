@@ -7,8 +7,15 @@ console.log(idade);
 //idade = idade + 1;
 idade++;
 console.log(idade);
-console.log("----------------------------------------------")
+console.log("----------------------------------------------");
 idade--;
 console.log(idade);
 
-let novaidade = idade
+let novaidade = idade++;
+console.log("idade:", idade, "| nova idade:", novaidade);
+
+novoidade = ++idade;
+console.log("idade:", idade, "| nova idade:", novaidade);
+
+novoidade = idade == 
+console.log("idade:", idade, "| nova idade:", novaidade);
