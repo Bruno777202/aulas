@@ -24,9 +24,14 @@ var matriz = [
 console.table(matriz)
 
 
-for (let i = 0; i < matriz.length; i++) {
-    console.log(matriz)
+for (let i = 3; i < matriz.length; i++) {
+    for (let index = 0; index < array.length; index++) {
+       
+        
+    }
     
 }
+    
+
 
 
