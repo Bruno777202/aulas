@@ -16,17 +16,17 @@ a matriz antes e após a multiplicação.
 | 4 6 2 |
 */
 
-var matriz = [
+let matriz = [
      [3 ,5 ,8 ]
      [1 ,9 ,2 ]
      [7 ,1 ,4 ]
 ]
 console.table(matriz)
-
+console.log(matriz.length)
 
 for (let i = 3; i < matriz.length; i++) {
-    for (let index = 0; index < array.length; index++) {
-       
+    for (let i= 0; i < matriz[0].length; i++) {
+        
         
     }
     

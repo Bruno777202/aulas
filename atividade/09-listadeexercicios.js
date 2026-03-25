@@ -23,14 +23,74 @@ console.log("resto divisão x % y é =", resto)
 
 // calcular área do retangulo
 
-console.log("calcularv área retangulo")
+console.log("------------------------------------------------------")
+
+console.log("calcular área retangulo")
 
 let base= 20
 let altura = 5
 
 let vezes = 20 * 5
-console.log(" mulplica da área 20 * 5 é =", vezes)
+console.log(" mulplica a área 20 * 5 é =", vezes)
 
-
-let dividir =
 console.log("agora fazer a divisão para dar o resultado")
+
+let dividir = vezes / 2
+console.log("agora dividir vezes / 2 é =", dividir)
+console.log("então o resultado da área é =", dividir)
+
+// calcular o volume paralelepípedo.
+
+let base2 = 50
+let altura2 = 20
+let comprimento = 10
+
+let resultado = 50 * 20 * 10;
+console.log("fazer calculo da base x alturo x comprimento é =", resultado)
+
+console.log("---------------------------------------------------------")
+
+let valor = 500
+let desconto = 10 / 500
+console.log("dividir o valor do 10 / 500 é =",desconto)
+
+let valorfinal = 500 * desconto
+console.log("valorfinal, valor do produto 500 * desconto é =", valorfinal)
+
+console.log("-----------------------------------------------------------")
+
+let celsius = 20 
+let Fahrenheit = 20 * 1.8 + 32
+console.log("mutplicar 20 * 1.8 + 32 é =", Fahrenheit)
+console.log("resultado celsius para fahrenheit",Fahrenheit)
+
+console.log("------------------------------------------------------------")
+
+let nota1 = 10
+let nota2 = 7
+let nota3 = 4
+
+let notatotal = 10 + 7 + 4
+console.log("somar todas as notas 10 + 7 + 4 é =",notatotal)
+
+let dividirtotal = notatotal / 3
+console.log("dividir notatotal por 3 é =", dividirtotal)
+
+console.log("-------------------------------------------------------------")
+
+let a = 40
+let b = 10
+let c = 20
+
+let somar2 = 40 + 10 + 20 
+console.log("somar 40 + 10 + 20 =", somar2)
+
+let dividir2 = somar2 / 2
+console.log("dividir 70 / 2 =",dividir2)
+
+console.log("----------------------------------------------------------------")
+
+//let horas = 1
+
+console.log("-----------------------------------------------------------------")
+
