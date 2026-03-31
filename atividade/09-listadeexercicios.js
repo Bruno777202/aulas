@@ -90,7 +90,38 @@ console.log("dividir 70 / 2 =",dividir2)
 
 console.log("----------------------------------------------------------------")
 
-//let horas = 1
+let horas = 2
+let minutos = 60
+console.log("entao um hora e = 60min")
+
+let multplicarh = 60 + 60
+console.log(" é 60 + 60 é =",multplicarh, "que é 2 horas em minutos")
+
 
 console.log("-----------------------------------------------------------------")
 
+let par = 4
+
+if (par > 4 ){
+    console.log("o numero 4 é par")
+}
+if (par < 4){
+    console.log("o número menor que 4 é impar")
+}
+
+if (par == 4){
+    console.log ("igual quatro é par já que é mesmo número")
+}
+console.log("-----------------------------------------------------------------")
+let impar = 5
+
+if (impar > 5){
+    console.log("o número maior que 5 é par ")
+}
+if (impar < 5){
+    console.log("o número menor que 5 é par")
+}
+if (impar == 5){
+    console.log("o número igual cinco é impar")
+}
+console.log("--------------------------------------------------------------")
