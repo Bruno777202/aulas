@@ -377,13 +377,12 @@ for (let i = 0; i < v1.length; i++) {
     somar += v1[i]
 }
 console.log(somar)
-
+//parte fotirial
 /*for (let index = 0; index < array.length; index++) {
     const element = array[index];
     
 }*/
 
-for (let i = 0; i < array.length; i++) {
-    const element = array[i];
-    
+for (let i = 2; i < 100; i++) {
+    console.log(i)
 }
