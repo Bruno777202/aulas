@@ -1,3 +1,4 @@
+// parte 1
 // operadores
 
 let x = 100
@@ -97,6 +98,7 @@ console.log("entao um hora e = 60min")
 let multplicarh = 60 + 60
 console.log(" é 60 + 60 é =",multplicarh, "que é 2 horas em minutos")
 
+// parte 2
 
 console.log("-----------------------------------------------------------------")
 
@@ -125,3 +127,58 @@ if (impar == 5){
     console.log("o número igual cinco é impar")
 }
 console.log("--------------------------------------------------------------")
+
+let mútiplo = 9
+
+if (mútiplo == 9){
+    console.log(" 9 é multiplo de 3")
+}
+console.log("-----------------------------------------------------------------")
+
+let aprovado = 7
+let recuperacao = 6
+let reprovado = 5
+
+if (aprovado > 7){
+    console.log("você passsou de ano")
+}
+if (recuperacao == 6 ){
+    console.log("você está de recuperacao")
+}
+if (reprovado < 5 ){
+    console.log("você está de recuperacao")
+}
+console.log("--------------------------------------------------------------------")
+
+let idade = 19
+
+if (idade < 18){
+    console.log("menor de 18 anos não é obrigatório votar")
+}
+if (idade > 18){
+    console.log("maior de 18 é obrigatório votar")
+}
+if (idade == 18){
+    console.log("18 é obrigatório votar")
+}
+console.log("----------------------------------------------------------------------")
+
+let número = 10
+let número2 = 50
+
+if (número > 10){
+    console.log(" este número está entre 10 e 50")
+}
+if (número2 < 50){
+    console.log("este número é entre 10 e 50")
+}
+if (número2 > 50){
+    console.log(" este número está entre 10 e 50")
+
+if (número == 10){
+    console.log("esté número é 10 divisor de águas")
+}
+
+if (número2 == 50){
+    console.log("esté número é 50 divisor de águas")
+}
