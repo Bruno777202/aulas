@@ -1,0 +1,13 @@
+/*comentorio em css*/
+/*seletores css*/
+/* qunado for usar seletor de class ->*/
+/*seletor de elementos -> tag html*/
+
+body{
+  background-color: rgb(91, 131, 166);/* cor de fundo*/
+  font-family: "segue UI",tahoma, geneva, sans-serif;
+ font-size: 16px;
+margin:0px;
+padding:0%px;
+ text-align: center;
+}
