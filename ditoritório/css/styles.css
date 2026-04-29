@@ -1,0 +1,117 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-size: 16px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+background-color: darkgray;
+text-align: center;
+padding: 24px;
+}
+
+
+h1{
+color: black;
+padding: 8px0;
+}
+
+.card{
+background-color: aliceblue;
+padding: 20px;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+
+.AT{
+background-color: aliceblue;
+padding: 8px;
+margin: 5px auto;
+padding: 20px;
+border-radius: 10px;
+width: 500px;
+
+} 
+.AT a:hover{
+background-color: darkslategrey;
+}
+
+#div{
+
+background-color: azure;
+padding: 20px;
+border-radius: 10px;
+margin-bottom: 10px;
+}
+
+.exercicio01{
+background-color: darkcyan;
+width: 500px;
+margin: 5px auto;
+padding: 20px;
+border-radius: 10px;
+}
+
+#contador{
+font-size: 16px;
+font-weight: 100;
+margin-bottom: 8px;
+}
+
+#btn-menos{
+width: 20px;
+background-color: aliceblue;
+color: black;
+cursor: pointer;
+border-radius: 6px;
+transition: 0.3s;
+border: none;
+font-size: 24px;
+}
+
+#btn-zerar{
+background-color: brown;
+}
+
+#btn-mais{
+background-color: green;
+}
+
+
+/* seletor / exercicio 2*/
+
+#quadrado{
+width: 150px;
+height: 150px;
+border: 1px solid #111827;
+border-radius: 4px;
+margin: 12px auto;
+background-color: white;
+}
+span{
+font-weight: bold;
+font-style: italic;
+}
+
+/* exercico03 */
+
+#num1,  #num2{
+padding: 10px;
+width: 170px;
+margin: 4px;
+margin-bottom: 12px;
+}
+
+#btn-somar , #btn-subtrair, #btn-multiplicacao,#btn-dividir{
+background-color: darkcyan;
+font-weight: bolder;
+}
+
+
+#resultado{
+font-size: 32px;
+font-weight: bold;
+margin: 12px 0;
+}

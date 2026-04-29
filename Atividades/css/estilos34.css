@@ -7,7 +7,7 @@
 }
 
 body{
- background-color: white;
+ background-color: darkgrey;
 }
 
 .conteiner{
@@ -40,7 +40,7 @@ body{
 }
 
 .sidebar a:hover{
-  background-color: blue;
+  background-color: azure;
 }
 
 /* conteudo */
@@ -70,7 +70,7 @@ body{
 input{
  width: 100%;
  padding: 10px;
- margin: 8px 0;
+ margin: 8px 0px;
  border: 1px solid #ccc;
  border-radius: 6px;
 }
@@ -81,13 +81,13 @@ button{
  color: white;
  padding: 15px;
  width: 100%;
-border-radius: pointer;
+border-radius: 10px;
 transition: 0,3s;
 border:  5px;
 margin-top: 10px;
 }
 button:hover{
-background-color: black;
+background-color: darkblue;
 transform: scale();
 }
 

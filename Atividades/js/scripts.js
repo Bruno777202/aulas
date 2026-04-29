@@ -10,12 +10,15 @@ const cadastro = (event) =>{
       let lista = document.getElementById("lista");
 }
 //ciar um novo elemento li = nome
-usercount++;
+usercount++; // acrecer o contador em +1
 let id = usercount
 
 
 let novoitem = document.createElement("li");
-novoitem = 
+novoitem = ' &(id) - $(nome) - (email) - <p onclick=editar: ($(id)) class>'
+
+let 
+let 
 
 lista.appendChild;(novoitem);
 
@@ -23,18 +26,21 @@ document.getElementById("nome").value = nome
 document.getElementById("email").value = email
 
 const editar = (id) =>{
-
+ const lista = document.getElementById("lista")
+ const lista = document.get
 }
 
 const excluir = (id) =>{
-
-}
 const lista = document.getElementById("lista");
 const item = document.querySelectorAll("li");
-
-item.forEach(item =>)
-if (item.innerHTML.includes(id)){
-      item.remove()
 }
+item.forEach((item) => {
+      if (item.innerhtml.incluse(id)){
+            item.remove();
+      }
+}
+
+
+
 
 
